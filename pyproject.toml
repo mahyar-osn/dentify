@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dentify"
+version = "0.1.0"
+description = "A Python package for data processing, model training, and prediction for the CoTreatAI Challenge."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Mahyar Osanlouy", email = "mahyar.osn@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "pyyaml",
+    "torch",
+    "ultralytics",
+    "comet_ml"
+]
