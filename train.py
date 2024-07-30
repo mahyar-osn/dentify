@@ -6,8 +6,8 @@ from types import SimpleNamespace
 
 from ultralytics import YOLO
 
-from src.dentify.utils.coco import convert_coco_json
-from src.dentify.utils.training_yaml import generate
+from src.dentify.coco import convert_coco_json
+from src.dentify.training_yaml import generate
 
 
 class ProgramArguments(object):
