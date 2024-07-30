@@ -1,0 +1,31 @@
+data:
+  coco_path: </path/to/annotations.json>
+
+model: yolov8n-seg.pt
+
+experiment_name: <experiment_name>
+
+hyperparams:
+  epochs: 1
+  imgsz: 614
+  batch: 32
+  device: 0
+  patience: 100
+  lr0: 0.00269
+  optimizer: AdamW
+  weight_decay: 0.00015
+
+augment:
+  hsv_h: 0.01148
+  hsv_s: 0.53554
+  hsv_v: 0.13636
+  degrees: 0.0
+  translate: 0.12431
+  scale: 0.07643
+  shear: 0.0
+  perspective: 0.0
+  flipud: 0.0
+  fliplr: 0.08631
+  mosaic: 0.42551
+  mixup: 0.0
+  copy_paste: 0.0
