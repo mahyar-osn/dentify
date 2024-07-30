@@ -35,13 +35,10 @@ The directory structure of the Dentify package is as follows:
 │   │   ├── coco.py
 │   │   │── training_yaml.py
 ├── .gitignore
-├── evaluate.py
 ├── train.py
 ├── README.md
 ├── predict.py
 ├── pyroject.toml
-├── setup.py
-├── requirements.txt
 ```
 
 - configs/: Contains configuration files for training.
@@ -49,8 +46,7 @@ The directory structure of the Dentify package is as follows:
 - src/: Source code for the Dentify package which includes utility scripts for data conversion and configuration generation.
 - train.py: Script for training the model.
 - predict.py: Script for making predictions using the trained model.
-- pyroject.toml: TOML file for describing the project and dependencies and use for installation.
-- requirements.txt: List of dependencies required for the package.
+- pyproject.toml: TOML file for describing the project and dependencies and use for installation.
 
 ## Usage
 ### Data Preparation
