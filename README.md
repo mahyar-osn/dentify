@@ -15,7 +15,7 @@ Dentify is a Python package designed for the CoTreatAI Challenge. It facilitates
 
 ## Installation
 
-To install the required dependencies, run:
+To install `dentify`:
 
 ```bash
 pip install -e .
