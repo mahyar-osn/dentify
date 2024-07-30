@@ -10,12 +10,8 @@ Dentify is a Python package designed for the CoTreatAI Challenge. It facilitates
   - [Data Preparation](#data-preparation)
   - [Model Training](#model-training)
   - [Prediction](#prediction)
-  - [Evaluation](#evaluation)
 - [Configuration](#configuration)
 - [Hyperparameters](#hyperparameters)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
